@@ -14,7 +14,8 @@
     </head>
     <body class="has-global-bar">
         <div class="nav-global">
-            <div class="nav-global-container"></div>
+            <div class="nav-global-container">
+</div>
         </div>
         <div class="navdrawer-offset">
             <div class="container-main">
@@ -24,9 +25,9 @@
                             <h1 class="d-flex"> <div class="extension-icon icon-lg me-2">
                                     <img alt="Add-on Teamatical Tools" src="./assets/tm-256.png">
                                 </div>
-								TEAMATICAL TOOLS</h1>
+								TEAMATICAL TOOLS </h1>
                             <div class="hero-subtitle">
-                                <div class="ext-detail-tagline">Process CLO3D mesh and prepare for baking.</div>
+                                <div class="ext-detail-tagline">Process CLO3D mesh and prepare for baking</div>
                                 <div class="ext-detail-authors">
                                     <a href="https://extensions.blender.org/add-ons/">Add-on</a>
                                     by <a href="https://teamatical.com" title="Teamatical">Teamatical</a>
@@ -36,13 +37,14 @@
                         <nav class="d-flex flex-column-reverse flex-md-row">
                             <div class="hero-tabs">
                                 <a href="index.html" class="is-active">About</a>
-                                <a href="index.html#new" class="">What's New</a>
-                                <a href="index.html#permissions" class="">Permissions</a>
+                                <a href="#permissions" class="">Permissions</a>
                                 <a href="history.html" class="">Version History</a>
                             </div>
-                            <div class="btn-row hero-tabs-admin mb-3 mb-md-0"></div>
+                            <div class="btn-row hero-tabs-admin mb-3 mb-md-0">
+</div>
                         </nav>
                     </div>
+                    <div class="hero-overlay"></div>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -55,29 +57,24 @@
                                 </div>
                             </section>
                             <hr class="my-4">
-                            <section id="new" class="ext-detail-changelog">
-                                <h2 class="mb-3">What's New</h2>
-                                <details open="">
-                                    <summary>4.1.2<span class="date">&nbsp;June 11th, 2025 </span>
-                                    </summary>
-                                    <div>
-                                        <h3>FIXED</h3>
-                                        <ul>
-                                            <li>fix losing brushstroke context material on new preset initialization (<a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/studio/blender-studio-tools/pulls/365">#365</a>)
-                                            </li>
-                                            <li>fix accumulation of default brush style datablocks (<a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/studio/blender-studio-tools/pulls/366">#366</a>)
-                                            </li>
-                                            <li>fix handling of incremental suffix on brush style datablocks (<a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/studio/blender-studio-tools/pulls/366">#366</a>)
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </details>
-                                <p> <a href="history.html" class="d-block mt-3">
-									See all versions </a> </p>
-                            </section>
-                            <hr class="my-4">
                             <section id="permissions" class="ext-detail-permissions">
-                                <h2 class="mb-3">Permissions&nbsp;</h2>
+                                <h2 class="mb-3">Permissions</h2>
+                                <div class="box">
+                                    <p>This extension requests the following permission:</p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <i class="i-permission-files"></i>
+                                            </div>
+                                            <div>
+                                                <strong>Files</strong>
+                                                <p>Read/write OBJ files from/to disk</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <hr class="my-4">
+                                <h2 class="mb-3">Version History</h2>
                                 <div class="box">
                                     <p>This extension requests the following permission:</p>
                                     <ul>
@@ -165,7 +162,7 @@
                                     <noscript>
                                         <style>.js-btn-install-group { display: none;}</style>
                                         <div class="btn-col text-center">
-                                            <a class="btn btn-flex btn-accent" href="teamatical_panel-4.1.0.zip?repository=.%2Findex.json&blender_version_min=4.2.0" download="teamatical_panel-4.1.0.zip"> <i class="i-download"></i><span>Download Add-on </span> </a>
+                                            <a class="btn btn-flex btn-accent" href="https://extensions.blender.org/download/sha256:3e29b1ed52c8f9cf198be73dd02c18b89ce5c2b311f9ae3d419e187035152af8/add-on-brushstroke-tools-v1.1.1.zip?repository=%2Fapi%2Fv1%2Fextensions%2F&amp;blender_version_min=4.2.0" download="add-on-brushstroke-tools-v1.1.1.zip"> <i class="i-download"></i><span>Download Add-on </span> </a>
                                             <small class="mt-3">...and <a class="text-underline text-primary text-center" href="https://docs.blender.org/manual/en/dev/editors/preferences/extensions.html#install" target="_blank">Install from Disk</a></small>
                                         </div>
                                     </noscript>
@@ -176,5 +173,9 @@
                 </div>
             </div>
         </div>
+        <!--- script type="text/javascript" src="./assets/common.f21a8569a480.js.download" charset="utf-8"></script --->
+        <script>
+			initGalleria();
+		</script>
     </body>
 </html>

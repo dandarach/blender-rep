@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teamatical Tools — Blender Extensions</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://extensions.blender.org/static/icons/apple-touch-icon.1131f253faf5.png">
+        <link rel="icon" type="image/svg+xml" href="https://extensions.blender.org/static/icons/favicon.49e74215f3a2.svg">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://extensions.blender.org/static/icons/favicon-32x32.e0cfac52225b.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://extensions.blender.org/static/icons/favicon-16x16.c228102a8815.png">
+        <meta name="theme-color" content="#009eff">
+        <meta name="description" content="Brushstroke painting tools by the Blender Studio">
+        <link href="./assets/common.css" rel="stylesheet" type="text/css" media="screen,projection">
+        <!--- script defer="" data-domain="extensions.blender.org" src="./assets/script.outbound-links.file-downloads.tagged-events.js.download"></script --->
+    </head>
+    <body class="has-global-bar is-scrolled">
+        <div class="nav-global">
+            <div class="nav-global-container">
+</div>
+        </div>
+        <div class="navdrawer-offset">
+            <div class="container-main">
+                <div class="hero extension-detail position-relative z-2">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h1 class="d-flex"><div class="extension-icon icon-lg me-2">
+                                    <img alt="Add-on Brushstroke Tools" src="./assets/5631dc236dc675b9312e653922f9fddf161072b891c6f0faca8ab86c24084110.png">
+                                </div> <b>TEAMATICAL TOOLS</b></h1>
+                            <div class="hero-subtitle">
+                                <div class="ext-detail-tagline">Brushstroke painting tools by the Blender Studio.</div>
+                                <div class="ext-detail-authors"><a href="https://extensions.blender.org/add-ons/">Add-on</a>
+                                    by <a href="https://extensions.blender.org/team/blender-studio/" title="Blender Studio">Teamatical</a>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="d-flex flex-column-reverse flex-md-row">
+                            <div class="hero-tabs"><a href="https://extensions.blender.org/add-ons/brushstroke-tools/" class="is-active">About</a><a href="https://extensions.blender.org/add-ons/brushstroke-tools/#new" class="">What's New</a><a href="https://extensions.blender.org/add-ons/brushstroke-tools/#permissions" class="">Permissions</a><a href="https://extensions.blender.org/add-ons/brushstroke-tools/versions/" class="">Version History</a>
+                            </div>
+                            <div class="btn-row hero-tabs-admin mb-3 mb-md-0">
+</div>
+                        </nav>
+                    </div>
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 pt-2">
+                            <section class="galleria-container" id="galleria-container">
+                                <a class="galleria-item galleria-item-type-image js-expand-on-click" href="./assets/1cbc170f136936170aca49352e6ca7b4e7baba9605a7365150ebf9102afbf5dc_1920x1080.webp" data-galleria-content-type="image/jpeg" data-galleria-index="1" id="galleria-item-lg" data-galleria-video-url="undefined"> <img src="./assets/1cbc170f136936170aca49352e6ca7b4e7baba9605a7365150ebf9102afbf5dc_1920x1080.webp" alt="Painterly fishing hut scene created using the Brushstroke Tools extension for the introductory workshop available on studio.blender.org"> </a>
+                            </section>
+                            <section id="about" class="mt-3">
+                                <div class="box style-rich-text">
+                                    <p>Set of tools for a painterly 3D brushstrokes workflow by the Blender Studio to create a variety of stylized looks for asset production.</p>
+                                    <p><a rel="nofollow noopener noreferrer external" target="_blank" href="https://youtu.be/fKd-ViC1ZjA">Watch the introduction video here!</a></p>
+                                    <h2>Overview</h2>
+                                    <p>This addon provides a convenient interface to create, manage and edit layers of 3D brushstrokes that are generated procedurally with an elaborate Geometry Nodes system.</p>
+                                    <p>There are two types of Brushstroke Layers:</p>
+                                    <ul>
+                                        <li>
+                                            <h3>Fill</h3>
+                                        </li>
+                                    </ul>
+                                    <p>Flood a mesh surface with brushstrokes and control them with a wide set of parameters in the 'Shape' panel of the addon interface. This type of brushstroke layer can be guided by drawing curves for the flow direction or marking parts of the mesh to define flow/break edges and faces to be ignored using the shortcut Ctrl+Alt+F.</p>
+                                    <ul>
+                                        <li>
+                                            <h3>Draw</h3>
+                                        </li>
+                                    </ul>
+                                    <p>Draw brushstrokes as curve geometry directly on a surface mesh. There are settings in the toolbar as you draw to control, for example, the color. On top of that you can apply additional procedural effects in the 'Shape' panel of the addon interface.</p>
+                                    <h3>Material</h3>
+                                    <p>The material of a brushstroke layer can also be controlled using the addon interface. Material settings are split into</p>
+                                    <ul>
+                                        <li>
+                                            <em>Properties</em> (Base PBR setup to control material quality)
+                                        </li>
+                                        <li>
+                                            <em>Brush Style</em> (Selection and control of the base texture from real-life scans)
+                                        </li>
+                                        <li>
+                                            <em>Effects</em> (Additional masking effects to adjust the texture)
+                                        </li>
+                                    </ul>
+                                    <h2>More Info</h2>
+                                    <ul>
+                                        <li>
+                                            <a rel="nofollow noopener noreferrer external" target="_blank" href="https://studio.blender.org/training/stylized-rendering-with-brushstrokes/">Watch the guided <strong>workshop</strong> and download the fishing hut <strong>example file</strong></a>
+                                        </li>
+                                        <li>
+                                            <a rel="nofollow noopener noreferrer external" target="_blank" href="https://studio.blender.org/tools/addons/brushstroke_tools">Find more extensive <strong>documentation</strong> here</a>
+                                        </li>
+                                    </ul>
+                                    <p><a rel="nofollow noopener noreferrer external" target="_blank" href="https://studio.blender.org/"><em>Consider supporting our work and get all kinds of useful resources regarding production with Blender by subscribing to the Blender Studio</em></a></p>
+                                    <hr>
+                                    <p><strong>Disclaimers</strong></p>
+                                    <p>The geometry generation and rendering techniques applied with this extension are computationally intensive and rely on high-end hardware specifications to allow smooth workflow.</p>
+                                    <p>For Blender 4.2.0 to 4.2.3 you might have to restart Blender once after installing the extension to ensure all assets are available.</p>
+                                    <p>Brush style previews only work for Blender versions 4.2.4 and up.</p>
+                                    <h3>FAQ</h3>
+                                    <ul>
+                                        <li>Why does the fill layer not react to me drawing the flow curves?
+                                            <ul>
+                                                <li>Most likely you don't have a valid UV map on your surface mesh. Try doing a simple Auto-UV unwrap and adding the fill layer again.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Why is the fill layer reacting badly and inaccurately to the drawn flow curves?
+                                            <ul>
+                                                <li>Most likely your surface mesh has a low resolution. The flow requires a certain mesh resolution to be interpolated properly.</li>
+                                            </ul>
+                                        </li>
+                                        <li>I am using Cycles for rendering and there are black spots all over the place.
+                                            <ul>
+                                                <li>This method of stylized rendering makes heavy use of overlapping transparent planes. This means Cycles need to do a high number of transparent bounces for the image to resolve nicely during rendering. To help with this setting you can use the <code>Render Setup</code> operator in the <code>Advanced</code> panel.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>I'm experiencing poor performance. How can this be avoided?
+                                            <ul>
+                                                <li>This method is computationally intensive and relies on high level hardware to run smoothly. But there are a few things that can be done to avoid low perfromance.</li>
+                                                <li>If it's about tweaking shape parameters, then it doesn't have to do with the rendering, but is about the geometry evaluation and it just helps to keep the amount of brushstrokes and their resolution low, to reduce the amount of geometry that needs to be processed.</li>
+                                                <li>If just in the static case, orbiting the camera is slow, then it has to do with Eevee and keeping the amount of pixels that need to be rendered low helps most. For example you can change the Pixel Size in the <code>Performance</code> - <code>Viewport</code> settings. Samples don't help with interaction, since during that only 1 sample is rendered anyways.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <hr class="my-4">
+                            <section id="new" class="ext-detail-changelog">
+                                <h2 class="mb-3">What's New</h2>
+                                <details open="">
+                                    <summary>
+                                        1.1.1<span class="date">
+              January 17th, 2025 </span>
+                                    </summary>
+                                    <div>
+                                        <h3>FIXED</h3>
+                                        <ul>
+                                            <li>fix losing brushstroke context material on new preset initialization (<a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/studio/blender-studio-tools/pulls/365">#365</a>)
+                                            </li>
+                                            <li>fix accumulation of default brush style datablocks (<a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/studio/blender-studio-tools/pulls/366">#366</a>)
+                                            </li>
+                                            <li>fix handling of incremental suffix on brush style datablocks (<a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/studio/blender-studio-tools/pulls/366">#366</a>)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </details>
+                                <p> <a href="https://extensions.blender.org/add-ons/brushstroke-tools/versions/" class="d-block mt-3">
+            See all versions </a> </p>
+                            </section>
+                            <hr class="my-4">
+                            <section id="permissions" class="ext-detail-permissions">
+                                <h2 class="mb-3">Permissions</h2>
+                                <div class="box">
+                                    <p>This extension requests the following permission:</p>
+                                    <ul>
+                                        <li>
+                                            <div><i class="i-permission-files"></i>
+                                            </div>
+                                            <div><strong>Files</strong>
+                                                <p>Read/write brushstroke asset resources from/to disk</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-4">
+                            <aside class="is-sticky pt-2 z-1">
+                                <section class="ext-detail-info">
+                                    <div class="card p-3">
+                                        <dl>
+                                            <div class="dl-row">
+                                                <div class="dl-col">
+                                                    <dt>Version</dt>
+                                                    <dd><a href="https://extensions.blender.org/add-ons/brushstroke-tools/versions/">
+                    1.1.1 </a>
+                                                    </dd>
+                                                </div>
+                                            </div>
+                                            <div class="dl-row">
+                                                <div class="dl-col">
+                                                    <dt>Published</dt>
+                                                    <dd title="Monday 4th, November 2024 - 12:22">
+                                                        Nov. 4th, 2024
+</dd>
+                                                </div>
+                                            </div>
+                                            <div class="dl-row">
+                                                <div class="dl-col">
+                                                    <dt>Size</dt>
+                                                    <dd>28.3&nbsp;MB</dd>
+                                                </div>
+                                            </div>
+                                            <div class="dl-row">
+                                                <div class="dl-col">
+                                                    <dt>Compatibility</dt>
+                                                    <dd><a class="overflow-visible" href="https://www.blender.org/download/releases/4-2/" title="4.2.0">Blender 4.2</a>
+                                                        &nbsp;and newer<a href="https://extensions.blender.org/approval-queue/brushstroke-tools/?report_compatibility_issue&amp;version=1.1.1#id_message" title="Report compatibility issue"><i class="i-flag"></i></a>
+                                                    </dd>
+                                                </div>
+                                            </div>
+                                        </dl>
+                                    </div>
+                                </section>
+                                <section class="ext-detail-download mt-3">
+                                    <div class="btn-group js-btn-install-group">
+                                        <button class="btn btn-flex btn-accent js-btn-install"><span>Get Add-on</span>
+                                        </button>
+                                    </div>
+                                    <div class="fade js-btn-install-action">
+                                        <div class="btn-install-action-item js-btn-install-action-item" data-install-url="https://extensions.blender.org/download/sha256:3e29b1ed52c8f9cf198be73dd02c18b89ce5c2b311f9ae3d419e187035152af8/add-on-brushstroke-tools-v1.1.1.zip?repository=%2Fapi%2Fv1%2Fextensions%2F&amp;blender_version_min=4.2.0" data-platform="" download="add-on-brushstroke-tools-v1.1.1.zip">
+                                            <div class="btn-install-drag-group js-btn-install-drag-group mb-2 rounded">
+                                                <button class="btn btn-flex btn-primary btn-install-drag cursor-move js-btn-install-drag mb-2 w-100" draggable="true"><i class="i-move"></i><span>Drag and Drop into Blender </span>
+                                                </button>
+                                                <div class="text-center">
+</div>
+                                            </div><small class="d-block text-center w-100"> 
+                  ...or <a class="text-underline text-primary" href="https://extensions.blender.org/download/sha256:3e29b1ed52c8f9cf198be73dd02c18b89ce5c2b311f9ae3d419e187035152af8/add-on-brushstroke-tools-v1.1.1.zip?repository=%2Fapi%2Fv1%2Fextensions%2F&amp;blender_version_min=4.2.0" download="add-on-brushstroke-tools-v1.1.1.zip">download</a>
+                  and <a class="text-underline text-primary" href="https://docs.blender.org/manual/en/dev/editors/preferences/extensions.html#install" target="_blank">Install from Disk</a> </small>
+                                        </div>
+                                        <div class="dropdown js-dropdown-all-versions-wrapper d-none">
+                                            <button class="btn btn-link dropdown-toggle js-dropdown-toggle w-100" data-toggle-menu-id="js-dropdown-all-versions">
+                                                Other versions<i class="i-chevron-down"></i>
+                                            </button>
+                                            <ul class="dropdown-menu js-dropdown-menu w-100" id="js-dropdown-all-versions">
+                                                <li><a class="align-items-center d-flex dropdown-item justify-content-between" download="add-on-brushstroke-tools-v1.1.1.zip" href="https://extensions.blender.org/download/sha256:3e29b1ed52c8f9cf198be73dd02c18b89ce5c2b311f9ae3d419e187035152af8/add-on-brushstroke-tools-v1.1.1.zip?repository=%2Fapi%2Fv1%2Fextensions%2F&amp;blender_version_min=4.2.0">  <span class="dropdown-all-versions-item-dot js-dropdown-all-versions-item-dot" data-platform=""></span> <span> <i class="i- js-dropdown-all-versions-item-icon me-0" data-platform=""></i> <span class="text-muted"></span> </span>  <span class="text-muted">28.3&nbsp;MB</span> </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <noscript>
+                                        <style>.js-btn-install-group { display: none;}</style>
+                                        <div class="btn-col text-center"><a class="btn btn-flex btn-accent" href="https://extensions.blender.org/download/sha256:3e29b1ed52c8f9cf198be73dd02c18b89ce5c2b311f9ae3d419e187035152af8/add-on-brushstroke-tools-v1.1.1.zip?repository=%2Fapi%2Fv1%2Fextensions%2F&amp;blender_version_min=4.2.0" download="add-on-brushstroke-tools-v1.1.1.zip"> <i class="i-download"></i><span>Download Add-on </span> </a><small class="mt-3">...and <a class="text-underline text-primary text-center" href="https://docs.blender.org/manual/en/dev/editors/preferences/extensions.html#install" target="_blank">Install from Disk</a></small>
+                                        </div>
+                                    </noscript>
+                                </section>
+                            </aside>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <section>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="d-flex">
+                                    <h2 class="mb-3"> <a class="text-decoration-none" href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/">
+              Reviews </a> </h2><a href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/" class="ms-auto text-decoration-none">See all</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <article id="review-3936" class="comment-card mb-2">
+                                    <aside><a href="https://extensions.blender.org/author/14212/"> <img src="./assets/blank-profile-pic.05aafa6b130a.png" class="profile-avatar "> </a>
+                                    </aside>
+                                    <div>
+                                        <header>
+                                            <ul>
+                                                <li><a href="https://extensions.blender.org/author/14212/">
+            Wade-Schneider </a>
+                                                </li>
+                                                <li class="align-items-center d-flex me-auto"><a class="stars-helper" href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/?score=5"> <span class="stars me-1 " title="Rated 5 out of 5"> <span style="width: 100%"></span></span> </a>
+                                                </li>
+                                                <li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/versions/#v111">
+            v1.1.1 </a>
+                                                </li>
+                                                <li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/#review-3936" title="June 8, 2025, 3:58 p.m.">
+            19 h </a>
+                                                </li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/1.1.1/3936/report/" title="Report this review"> <i class="i-flag"></i> </a>
+                                            </ul>
+                                        </header>
+                                        <div class="comment-card-content">
+                                            <p>Great addon, How ever recently its been spamming my console with /home/$USER/.config/blender/4.4/scripts/addons/brushstroke_tools/__init__.py
+Every time i hover over a UI element.</p>
+                                            <p>$USER is replaced by a users username, i added that in as its agnostic</p>
+                                            <p>Great tool though still worth the 5 stars i gave it, would like that error to disappear. 
+I added a bl_info section to the said script as a test but that didnt work so im assuming it needs something else.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article id="review-3933" class="comment-card mb-2">
+                                    <aside><a href="https://extensions.blender.org/author/2608/"> <img src="./assets/blank-profile-pic.05aafa6b130a.png" class="profile-avatar "> </a>
+                                    </aside>
+                                    <div>
+                                        <header>
+                                            <ul>
+                                                <li><a href="https://extensions.blender.org/author/2608/">
+            tone-watson </a>
+                                                </li>
+                                                <li class="align-items-center d-flex me-auto"><a class="stars-helper" href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/?score=5"> <span class="stars me-1 " title="Rated 5 out of 5"> <span style="width: 100%"></span></span> </a>
+                                                </li>
+                                                <li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/versions/#v111">
+            v1.1.1 </a>
+                                                </li>
+                                                <li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/#review-3933" title="June 8, 2025, 7:37 a.m.">
+            1 d </a>
+                                                </li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/1.1.1/3933/report/" title="Report this review"> <i class="i-flag"></i> </a>
+                                            </ul>
+                                        </header>
+                                        <div class="comment-card-content">
+                                            <p>incredible</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article id="review-3784" class="comment-card mb-2">
+                                    <aside><a href="https://extensions.blender.org/author/2936/"> <img src="./assets/5673fe99c7c900024666dc4529e9718c89580c396e0ce68da4c00d3e7ec94ec9.jpg" class="profile-avatar "> </a>
+                                    </aside>
+                                    <div>
+                                        <header>
+                                            <ul>
+                                                <li><a href="https://extensions.blender.org/author/2936/">
+            Theanine3D </a>
+                                                </li>
+                                                <li class="align-items-center d-flex me-auto"><a class="stars-helper" href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/?score=5"> <span class="stars me-1 " title="Rated 5 out of 5"> <span style="width: 100%"></span></span> </a>
+                                                </li>
+                                                <li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/versions/#v111">
+            v1.1.1 </a>
+                                                </li>
+                                                <li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/#review-3784" title="May 22, 2025, 8:58 a.m.">
+            2 w </a>
+                                                </li><a href="https://extensions.blender.org/add-ons/brushstroke-tools/1.1.1/3784/report/" title="Report this review"> <i class="i-flag"></i> </a>
+                                            </ul>
+                                        </header>
+                                        <div class="comment-card-content">
+                                            <p>Simply amazing. Really impressed with this and can't believe the Blender Studio was kind enough to provide it for free. It's surprisingly easy/qiuck to get a nice looking result with this addon.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <section>
+                                    <div class="card p-3 mb-3 mt-2 mt-lg-0 ratings-summary">
+                                        <div class="summary-container">
+                                            <div class="summary-value">
+                                                <h3> <a href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/" title="Rated 5.0 out of 5">
+          5.0 </a> </h3><span class="stars me-1 " title="Rated 5.0 out of 5"> <span style="width: 100%"></span></span><a class="text-muted d-block" href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/"> <small>58 reviews</small> </a>
+                                            </div>
+                                            <div class="summary-bars">
+                                                <div class="star-rating-container"><a href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/?score=5" title="View 5-star reviews (56 total)"> <div class="star-bar star-bar-has-scores" title="96.6% of reviews have 5 stars (56 ratings)">
+                                                            <span class="count">5</span>
+                                                            <div class="star-bar-rating" data-count="56">
+                                                                <span style="width: 96.55172413793103%"></span>
+                                                            </div>
+                                                        </div> </a>
+                                                </div>
+                                                <div class="star-rating-container"><a href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/?score=4" title="View 4-star reviews (2 total)"> <div class="star-bar star-bar-has-scores" title="3.4% of reviews have 4 stars (2 ratings)">
+                                                            <span class="count">4</span>
+                                                            <div class="star-bar-rating" data-count="2">
+                                                                <span style="width: 3.4482758620689653%"></span>
+                                                            </div>
+                                                        </div> </a>
+                                                </div>
+                                                <div class="star-rating-container">
+                                                    <div class="star-bar " title="0.0% of reviews have 3 stars (0 ratings)">
+                                                        <span class="count">3</span>
+                                                        <div class="star-bar-rating" data-count="0">
+                                                            <span style="width: 0%"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="star-rating-container">
+                                                    <div class="star-bar " title="0.0% of reviews have 2 stars (0 ratings)">
+                                                        <span class="count">2</span>
+                                                        <div class="star-bar-rating" data-count="0">
+                                                            <span style="width: 0%"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="star-rating-container">
+                                                    <div class="star-bar " title="0.0% of reviews have 1 star (0 ratings)">
+                                                        <span class="count">1</span>
+                                                        <div class="star-bar-rating" data-count="0">
+                                                            <span style="width: 0%"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3"><a href="https://extensions.blender.org/add-ons/brushstroke-tools/reviews/new/" class="btn btn-block">
+        Rate this Add-on </a>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                    <hr>
+                    <section class="mt-4"><a href="https://extensions.blender.org/add-ons/brushstroke-tools/report/" class="btn"> <i class="i-flag"></i> Report to Moderators </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="footer-pages pt-2">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="https://extensions.blender.org/about">About</a>
+                    </li>
+                    <li>
+                        <a href="https://www.blender.org/privacy-policy">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="https://extensions.blender.org/terms-of-service">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- @build Blender Web Assets v2.1.4 - Do not remove comment -->
+        <div class="footer-navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        <a href="https://www.blender.org/download/" class="sitemap-title">Download</a>
+                        <ul>
+                            <li><a href="https://www.blender.org/download/" title="Download Blender">Latest Blender</a>
+                            </li>
+                            <li><a href="https://www.blender.org/download/lts/" title="Blender Long-term Support">Blender LTS</a>
+                            </li>
+                            <li><a href="https://opendata.blender.org/?utm_medium=www-footer" title="Blender Benchmark">Blender
+              Benchmark</a>
+                            </li>
+                            <li><a href="https://www.blender.org/download/previous-versions/" title="Previous Versions">Previous
+              Versions</a>
+                            </li>
+                            <li><a href="https://builder.blender.org/download/daily/?utm_medium=www-footer" title="Experimental Builds">Experimental Builds</a>
+                            </li>
+                            <li><a href="https://projects.blender.org/blender/blender?utm_medium=www-footer" title="Source Code">Source
+              Code</a>
+                            </li>
+                            <li><a href="https://www.blender.org/download/releases/" title="Release Notes">Release Notes</a>
+                            </li>
+                            <li><a href="https://www.blender.org/download/requirements/" title="Requirements">Requirements</a>
+                            </li>
+                        </ul>
+                        <div class="sitemap-title">Organization</div>
+                        <ul>
+                            <li><a href="https://www.blender.org/about/people/" title="People">People</a>
+                            </li>
+                            <li><a href="https://www.blender.org/jobs/" title="Jobs">Jobs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="https://www.blender.org/about/" class="sitemap-title">About</a>
+                        <ul>
+                            <li><a href="https://www.blender.org/about/foundation/" title="Blender Foundation">Blender Foundation</a>
+                            </li>
+                            <li><a href="https://www.blender.org/about/institute/" title="Blender Institute">Blender Institute</a>
+                            </li>
+                            <li><a href="https://www.blender.org/about/studio/" title="Blender Studio">Blender Studio</a>
+                            </li>
+                            <li><a href="https://www.blender.org/about/license/" title="License">License</a>
+                            </li>
+                            <li><a href="https://www.blender.org/about/logo/" title="Logo &amp; Trademark">Logo &amp; Trademark</a>
+                            </li>
+                            <li><a href="https://www.blender.org/about/credits/" title="Credits">Credits</a>
+                            </li>
+                            <li><a href="https://www.blender.org/privacy-policy/" title="Privacy Policy">Privacy Policy</a>
+                            </li>
+                        </ul><a href="https://www.blender.org/news/" title="Articles" class="sitemap-title">Articles</a>
+                        <ul>
+                            <li><a href="https://www.blender.org/category/news/" title="News">News</a>
+                            </li>
+                            <li><a href="https://www.blender.org/category/press/" title="Press Releases">Press Releases</a>
+                            </li>
+                            <li><a href="https://www.blender.org/get-involved/user-stories/" title="User Stories">User Stories</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <a href="https://www.blender.org/get-involved/" class="sitemap-title">Get
+          Involved</a>
+                        <ul>
+                            <li><a href="https://www.blender.org/get-involved/dashboard/" title="Dashboard">Dashboard</a>
+                            </li>
+                            <li><a href="https://www.blender.org/get-involved/developers/" title="Development">Development</a>
+                            </li>
+                            <li><a href="https://www.blender.org/get-involved/documenters/" title="Documentation">Documentation</a>
+                            </li>
+                            <li><a href="https://www.blender.org/get-involved/" title="Education">Education</a>
+                            </li>
+                        </ul><a href="https://studio.blender.org/?utm_medium=www-footer" title="Blender Studio" class="sitemap-title">Blender
+          Studio</a>
+                        <ul>
+                            <li><a href="https://studio.blender.org/films/?utm_medium=www-footer" title="Blender Studio Films">Films</a>
+                            </li>
+                            <li><a href="https://studio.blender.org/training/?utm_medium=www-footer" title="Blender Studio Training">Training</a>
+                            </li>
+                        </ul><a href="https://www.blender.org/support/" class="sitemap-title">Support</a>
+                        <ul>
+                            <li><a href="https://docs.blender.org/manual/?utm_medium=www-footer" title="Manual">Manual</a>
+                            </li>
+                            <li><a href="https://www.blender.org/community/" title="Community">Community</a>
+                            </li>
+                            <li><a href="https://www.blender.org/support/faq/" title="FAQ">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2"><a href="https://developer.blender.org/?utm_medium=www-footer" class="sitemap-title">Developers</a>
+                        <ul>
+                            <li><a href="https://developer.blender.org/?utm_medium=www-footer" title="Get Started">Get Started</a>
+                            </li>
+                            <li><a href="https://projects.blender.org/?utm_medium=www-footer" title="Projects">Projects</a>
+                            </li>
+                            <li><a href="https://developer.blender.org/docs/?utm_medium=www-footer" title="Developers Docs">Docs</a>
+                            </li>
+                            <li><a href="https://code.blender.org/?utm_medium=www-footer" title="Developers Blog">Blog</a>
+                            </li>
+                            <li><a href="https://devtalk.blender.org/?utm_medium=www-footer" title="Developers Forum">Forum</a>
+                            </li>
+                            <li><a href="https://www.youtube.com/blenderdevelopers" target="_blank" title="YouTube (Developers)">YouTube</a>
+                            </li>
+                            <li><a href="https://docs.blender.org/api/current/?utm_medium=www-footer" title="Python API">Python API</a>
+                            </li>
+                        </ul><a href="https://conference.blender.org/" title="Blender Conference" class="sitemap-title">Blender
+          Conference</a>
+                    </div>
+                    <div class="col-6 col-md-3 social"><a href="https://bsky.app/profile/blender.org" class="sitemap-title">Follow
+          Blender</a>
+                        <ul class="list-inline mb-4 social-icons">
+                            <li><a href="https://youtube.com/BlenderFoundation" title="Blender&#39;s Official YouTube channel" target="_blank" class="social-icons__youtube"> <i class="i-youtube"></i> </a>
+                            </li>
+                            <li><a href="https://bsky.app/profile/blender.org" title="Follow Blender on Bluesky" target="_blank" class="social-icons__bluesky"> <i class="i-bluesky"></i> </a>
+                            </li>
+                            <li><a href="https://instagram.com/blender.official/" title="Follow Blender on Instagram" target="_blank" class="social-icons__instagram"> <i class="i-instagram"></i> </a>
+                            </li>
+                            <li><a href="https://www.facebook.com/YourOwn3DSoftware/" title="Follow Blender on Facebook" target="_blank" class="social-icons__facebook"> <i class="i-facebook"></i> </a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/company/blender-org/" title="Follow Blender on LinkedIn" target="_blank" class="social-icons__linkedin"> <i class="i-linkedin"></i> </a>
+                            </li>
+                            <li><a href="https://mastodon.social/@blender" title="Follow Blender on Mastodon" target="_blank" class="social-icons__mastodon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.4144 232.00976">
+                                        <path d="M 107.87112,1.8691521 C 78.687821,2.1077446 50.615693,5.2679473 34.256124,12.781149 c 0,0 -32.4459422,14.513545 -32.4459422,64.032543 0,11.33929 -0.220399,24.897358 0.1387195,39.275628 1.1782038,48.42688 8.8777977,96.15389 53.6520047,108.00481 20.644395,5.46425 38.369975,6.60907 52.644934,5.82442 25.88728,-1.43526 40.41961,-9.23836 40.41961,-9.23836 l -0.85394,-18.78298 c 0,0 -18.49963,5.83267 -39.27562,5.12182 -20.58413,-0.70594 -42.314881,-2.21933 -45.644106,-27.49168 -0.307465,-2.2199 -0.461196,-4.59439 -0.461196,-7.0873 0,0 20.207151,4.93937 45.815252,6.11266 15.65855,0.71823 30.34229,-0.91732 45.25677,-2.69692 28.60157,-3.41533 53.50539,-21.03826 56.63538,-37.14079 4.93172,-25.36583 4.52549,-61.901308 4.52549,-61.901308 0,-49.518998 -32.44414,-64.032543 -32.44414,-64.032543 C 165.861,5.2679473 137.77144,2.1077446 108.58813,1.8691521 Z M 74.843276,40.561072 c 12.155915,0 21.360069,4.672182 27.446624,14.017872 l 5.91811,9.919343 5.91809,-9.919343 c 6.08534,-9.34569 15.28949,-14.017872 27.44664,-14.017872 10.50545,0 18.97017,3.693077 25.43431,10.897586 6.26612,7.204507 9.38608,16.94344 9.38608,29.197743 V 140.61564 H 152.63788 V 82.418319 c 0,-12.267833 -5.16149,-18.494728 -15.48615,-18.494728 -11.41555,0 -17.13636,7.385747 -17.13636,21.99154 V 117.77016 H 96.400641 V 85.915131 c 0,-14.605793 -5.722618,-21.99154 -17.138159,-21.99154 -10.324658,0 -15.486137,6.226895 -15.486137,18.494728 V 140.61564 H 40.021088 V 80.656401 c 0,-12.254303 3.120529,-21.993236 9.387885,-29.197743 C 55.871876,44.254149 64.3366,40.561072 74.843276,40.561072 Z" style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"></path>
+                                    </svg> </a>
+                            </li>
+                            <li><a href="https://www.tiktok.com/@blender_org" title="Follow Blender on TikTok" target="_blank" class="social-icons__tiktok"> <i class="i-tiktok"></i> </a>
+                            </li>
+                            <li><a href="https://space.bilibili.com/3546814074587443" title="Follow Blender on Bilibili" target="_blank" class="social-icons__bilibili"> <i class="i-bilibili"></i> </a>
+                            </li>
+                        </ul><a href="https://fund.blender.org/?utm_medium=www-footer" class="sitemap-title">Support Blender</a>
+                        <ul>
+                            <li class="mb-3 mt-2"><a href="https://fund.blender.org/?utm_medium=www-footer" class="btn btn-accent"><i class="i-heart"></i> Donate</a>
+                            </li>
+                            <li><a class="text-center" href="https://fund.blender.org/donate-once/?utm_medium=www-footer" title="One-time Donation">One-time
+            Donation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-note">Artistic freedom starts with Blender <i class="i-heart"></i> <span>The Free and Open
+    Source
+    3D Creation Suite</span>
+            <div id="hop" title="Be awesome in space">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+</path>
+                </svg>
+            </div>
+        </footer>
+        <script type="text/javascript" src="./assets/common.f21a8569a480.js.download" charset="utf-8"></script>
+        <script>
+  initGalleria();
+</script>
+    </body>
+</html>
