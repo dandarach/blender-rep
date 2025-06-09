@@ -7,7 +7,7 @@
       "id": "teamatical_panel",
       "name": "Teamatical Tools Extension",
       "tagline": "This is Teamatical Tools extension",
-      "version": "4.1.1",
+      "version": "4.1.2",
       "type": "add-on",
       "maintainer": "Teamatical Inc.",
       "license": [
@@ -20,9 +20,9 @@
       "permissions": {
         "files": "Import/export OBJ from/to disk"
       },
-      "archive_url": "./teamatical_panel-4.1.1.zip",
-      "archive_size": 98805,
-      "archive_hash": "sha256:a04a56b73b8c44aa9d761cce06edfef8e0803f85688e49609916f97ae64aa752"
+      "archive_url": "./teamatical_panel-4.1.2.zip",
+      "archive_size": 100952,
+      "archive_hash": "sha256:379c3072868bc7de7a395f75127129fab42b2b8f288b8acf41c26b9940166730"
     }
   ]
 }
