@@ -15422,8 +15422,7 @@ summary+*:not(img) {
 }
 
 summary:before {
-    content: '\e84f';
-    font-family: fontutti;
+    content: "▼";
     left: calc(var(--spacer-1) * -1);
     position: absolute;
     top: 0;

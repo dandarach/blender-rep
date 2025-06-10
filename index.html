@@ -9,21 +9,9 @@
     <link rel="icon" type="image/svg+xml" href="https://extensions.blender.org/static/icons/favicon.49e74215f3a2.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="https://extensions.blender.org/static/icons/favicon-32x32.e0cfac52225b.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://extensions.blender.org/static/icons/favicon-16x16.c228102a8815.png">
+	<!---link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"--->
     <meta name="theme-color" content="#009eff">
-    <meta name="description" content="Brushstroke painting tools by the Blender Studio">
     <link href="./assets/common.css" rel="stylesheet" type="text/css" media="screen,projection">
-    <link rel="canonical" href="https://extensions.blender.org/add-ons/key-ops-toolkit/versions/">
-    <meta property="og:url" content="https://extensions.blender.org/add-ons/key-ops-toolkit/versions/">
-    <meta name="author" content="Blender Foundation"><meta name="theme-color" content="#009eff">
-    <meta property="og:site_name" content="Blender Extensions">
-    <meta property="og:locale" content="en_US"><meta property="og:type" content="website">
-    <meta property="og:title" content="Blender Extensions">
-    <meta property="twitter:title" content="Blender Extensions">
-    <meta name="description" content="Blender Extensions is a web based service developed by Blender Foundation that allows people to share open source add-ons for Blender.">
-    <meta property="og:description" content="Blender Extensions is a web based service developed by Blender Foundation that allows people to share open source add-ons for Blender.">
-    <meta property="twitter:description" content="Blender Extensions is a web based service developed by Blender Foundation that allows people to share open source add-ons for Blender.">
-    <meta property="og:image" content="https://extensions.blender.org/static/common/images/extensions-website-og-image-placeholder.jpg">
-    <meta property="og:image:alt" content="Blender Extensions">
 </head>
 
 <body class="has-global-bar">
@@ -51,10 +39,10 @@
                     </div>
                     <nav class="d-flex flex-column-reverse flex-md-row">
                         <div class="hero-tabs">
-                            <a href="index.html#" class="">About</a>
-                            <a href="index.html#download" class="">Download</a>
-                            <a href="index.html#permissions" class="">Permissions</a>
-                            <a href="index.html#history" class="">Version History</a>
+                            <a href="#galleria-container" class="">About</a>
+                            <a href="#download" class="">Download</a>
+                            <a href="#permissions" class="">Permissions</a>
+                            <a href="#history" class="">Version History</a>
                         </div>
                     </nav>
                 </div>
@@ -67,8 +55,11 @@
                                 class="galleria-item galleria-item-type-image js-expand-on-click"
                                 href="./assets/img1_1920x1080.webp" data-galleria-content-type="image/jpeg"
                                 data-galleria-index="1" id="galleria-item-lg" data-galleria-video-url="undefined"> <img
-                                    src="./assets/img1_1920x1080.webp" alt="Teamatical Tools Screenshot"> </a></section>
-                        <section id="about" class="mt-3">
+                                    src="./assets/img1_1920x1080.webp" alt="Teamatical Tools Screenshot"> </a>
+						</section>
+
+                        <section id="download" class="mt-3">
+					<h2 class="mb-3">Download</h2>
                             <div class="box style-rich-text">
                                 <p>Just drag and drop into Blender and add a repository ...or <a
                                         class="text-underline text-primary"
@@ -78,36 +69,23 @@
                                         href="https://docs.blender.org/manual/en/dev/editors/preferences/extensions.html#install"
                                         target="_blank">Install from Disk</a> </small>
                                 </p>
-
-                            </div>
-                        </section>
-
+		
                         <hr class="my-4">
-                        <section id="download" class="mt-3">
-                            <h2 class="mb-3">Download</h2>
-                            <div class="box style-rich-text">
-                                <p><p>Add-on</p>
-<hr>
 <table>
   <tr>
     <th>ID</th>
     <th>Name</th>
-    <th>Description</th>
-    <th>Website</th>
     <th>Blender Versions</th>
-    <th>Python Versions</th>
-    <th>Platforms</th>
     <th>Size</th>
+	<th>Built</th>
   </tr>
   <tr>
-    <td><tt><a href="./teamatical_panel-4.1.0.zip?repository=.%2Findex.json&blender_version_min=4.2.0">teamatical_panel-4.1.0</a></tt></td>
+    <td><tt>
+	<a href="./teamatical_panel-4.1.0.zip?repository=.%2Findex.json&blender_version_min=4.2.0" class="btn btn-flex btn-primary btn-install-drag .btn-install-drag-group cursor-move js-btn-install-drag mb-2 w-100">teamatical_panel-4.1.0</a></tt></td>
     <td>Teamatical Tools Extension</td>
-    <td>Process CLO3D mesh and prepare for baking</td>
-    <td>~</td>
     <td>4.2.0 - ~</td>
-    <td>all</td>
-    <td>all</td>
     <td>98.6KB</td>
+	<td>Jun 10th, 2025</td>
   </tr>
 </table>
 </p>
@@ -138,9 +116,6 @@
                             <h2 class="mb-3">Version History</h2>
                             <details open="" id="v111">
                                 <summary>
-    <svg width="16" height="16" viewBox="0 0 16 16">
-      <path d="M1 5l7 7 7-7z"/>
-    </svg>
                                     1.1.1<span class="show-on-collapse blender-version"> <a class="overflow-visible"
                                             href="https://www.blender.org/download/releases/4-2/" title="4.2.0">Blender
                                             4.2</a>
