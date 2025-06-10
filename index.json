@@ -1,0 +1,35 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "teamatical_panel",
+      "name": "Teamatical Tools Extension",
+      "tagline": "Process CLO3D mesh and prepare for baking",
+      "version": "4.1.0",
+      "type": "add-on",
+      "maintainer": "Teamatical Inc.",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "copyright": [
+        "2019-2025 Teamatical Inc."
+      ],
+      "permissions": {
+        "files": "Import/export OBJ from/to disk"
+      },
+      "tags": [
+        "Bake",
+        "Import-Export",
+        "Lighting",
+        "Material",
+        "UV"
+      ],
+      "archive_url": "./teamatical_panel-4.1.0.zip",
+      "archive_size": 100976,
+      "archive_hash": "sha256:bcb73ae1f688ebd240de171228aaac889cac8a4dde5ed33b9b44cd576c668e88"
+    }
+  ]
+}
