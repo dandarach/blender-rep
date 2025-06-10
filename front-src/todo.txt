@@ -1,4 +1,0 @@
-- flags, arrows, download isons
-- bold tittle
-- update info
-- test install
