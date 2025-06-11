@@ -1,0 +1,3 @@
+- update picture
+- update info
+- test install
