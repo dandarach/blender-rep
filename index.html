@@ -48,9 +48,9 @@
                     <nav class="d-flex flex-column-reverse flex-md-row">
                         <div class="hero-tabs">
                             <a href="#galleria-container" class="">About</a>
+                            <a href="#history" class="">What's New</a>
                             <a href="#download" class="">Download</a>
                             <a href="#permissions" class="">Permissions</a>
-                            <a href="#history" class="">What's New</a>
                         </div>
                     </nav>
                 </div>
@@ -62,11 +62,8 @@
 
                         <!-- GALLERIA -->
                         <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-                        <section class="galleria-container" id="galleria-container"> <a
-                                class="galleria-item galleria-item-type-image js-expand-on-click"
-                                href="./assets/img1_1920x1080.webp" data-galleria-content-type="image/jpeg"
-                                data-galleria-index="1" id="galleria-item-lg" data-galleria-video-url="undefined"> <img
-                                    src="./assets/img1_1920x1080.webp" alt="Teamatical Tools Screenshot"> </a>
+                        <section class="galleria-container" id="galleria-container"> <a class="galleria-item galleria-item-type-image js-expand-on-click"
+                                href="./assets/img1B_1920x1044.webp"target="_blank"> <img src="./assets/img1B_1920x1044.webp" alt="Teamatical Tools Screenshot"> </a>
                         </section>
 
                         <!-- DOWNLOAD -->
@@ -120,7 +117,7 @@
                                         </div>
                                         <div>
                                             <strong>Files</strong>
-                                            <p>Read/write OBJ files from/to disk</p>
+                                            <p>Export/import .OBJ files and write .PNG files to disk</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -194,8 +191,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <strong>Files</strong>
-                                                                            <small>Export/Import .obj files and use of
-                                                                                temp folder</small>
+                                                                            <small>Export/import .OBJ files and write .PNG files to disk</small>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -258,13 +254,14 @@
                                                 <h3 class="mb-3">Changelog</h3>
                                                 <ul>
                                                     <li>Improved Belnder 3.x compatibility</li>
-                                                    <li>Moved backside UVs for sandwich-print products</li>
+                                                    <li>Converted add-on to .ZIP package</li>
+                                                    <li>Changed backside UVs moving method for sandwich-print products</li>
                                                     <li>Added UI controls for baking</li>
                                                     <li>Added error catching</li>
                                                     <li>Added button icons</li>
                                                     <li>Added Import OBJ and Save BLEND buttons</li>
                                                     <li>Fixed Clean scene feature</li>
-                                                    <li>Included lighting scene into addon's zip</li>
+                                                    <li>Included lighting scene into add-on .ZIP package</li>
                                                     <li>Fixed panel appearance in some spaces</li>
                                                     <li>Added warning and info messages</li>
                                                     <li>Removed BLENDER_UTILS system variable</li>
@@ -298,8 +295,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <strong>Files</strong>
-                                                                            <small>Export/Import .obj files and use of
-                                                                                temp folder</small>
+                                                                            <small>Export/import .OBJ files and write .PNG files to disk</small>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
@@ -343,11 +339,104 @@
 
                                 <!-- DETAILS1 -->
                                 <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-                                <details id="100">
+                                <details id="v110">
+                                    <summary>
+                                        1.1.0
+                                        <span class="show-on-collapse blender-version">
+                                            Blender 2.8 and newer
+                                        </span>
+                                        <ul class="ms-auto">
+                                            <li>
+                                                October 20th, 2019
+                                            </li>
+                                        </ul>
+                                    </summary>
+
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <div>
+                                                <h3 class="mb-3">Changelog</h3>
+                                                <ul>
+                                                    <li>Blender 2.8 compatibility</li>
+                                                    <li>Changed backside detection method</li>
+                                                    <li>Added buttons hints</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!-- outlined box -->
+                                        <div class="col-md-5">
+                                            <section class="ext-detail-info box-outline mb-3">
+                                                <div class="dl-row">
+                                                    <div class="dl-col">
+                                                        <dt>Compatibility</dt>
+                                                        <dd>
+                                                            Blender 2.8 and newer
+                                                        </dd>
+                                                    </div>
+                                                </div>
+
+                                                <div class="dl-row">
+                                                    <div class="dl-col">
+                                                        <div class="ext-detail-permissions">
+                                                            <dt>Permissions</dt>
+                                                            <dd>This version requests the following:
+                                                                <ul>
+                                                                    <li>
+                                                                        <div>
+                                                                            <i class="i-permission-files"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <strong>Files</strong>
+                                                                            <small>Export/import .OBJ files and write .PNG files to disk</small>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </dd>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="dl-row">
+                                                    <div class="dl-col">
+                                                        <dt>License</dt>
+                                                        <dd>
+                                                            &nbsp;
+                                                        </dd>
+                                                    </div>
+                                                </div>
+                                                <div class="dl-row">
+                                                    <div class="dl-col">
+                                                        <dt>Status</dt>
+                                                        <dd>
+                                                            <div class="badge badge-secondary">
+                                                                <span>Removed</span>
+                                                            </div>
+                                                        </dd>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <div class="btn-col">
+                                                <a href="https://teamatical.com"
+                                                    class="btn btn-primary btn-block d-flex justify-content-between text-start">
+                                                    <span>
+                                                        <i class="i- me-1"></i>
+                                                        v1.1.0
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+
+                                <!-- DETAILS0 -->
+                                <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                                <details id="v100">
                                     <summary>
                                         1.0.0
                                         <span class="show-on-collapse blender-version">
-                                            Blender 2.2 and newer
+                                            Blender 2.7 and newer
                                         </span>
                                         <ul class="ms-auto">
                                             <li>
@@ -371,7 +460,7 @@
                                                     <div class="dl-col">
                                                         <dt>Compatibility</dt>
                                                         <dd>
-                                                            Blender 2.2 and newer
+                                                            Blender 2.7 and newer
                                                         </dd>
                                                     </div>
                                                 </div>
@@ -388,8 +477,7 @@
                                                                         </div>
                                                                         <div>
                                                                             <strong>Files</strong>
-                                                                            <small>Export/Import .obj files and use of
-                                                                                temp folder</small>
+                                                                            <small>Export/import .OBJ files and write .PNG files to disk</small>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
